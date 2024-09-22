@@ -1,6 +1,13 @@
 # Mental-Health-Assitant-ChatBot
 Mental Health Chatbot using Llama 2 and Sentiment Analysis Integration
 
+...
+
+### Access the Google Colab Notebook:
+You can view and run the notebook by clicking [here](https://colab.research.google.com/drive/1hf7Zs-MCahtOJNcbagOZEBbD9zmL_qAq?usp=sharing).
+
+...
+
 This project aims to create an Emotionally Intelligent Chatbot for Mental Health support. It combines two key components: an `Emotion Classifier Model` created by [SamLowe](https://huggingface.co/SamLowe/roberta-base-go_emotions) and the `Llama language model` created by [NousResearch](https://huggingface.co/NousResearch/Llama-2-7b-chat-hf). The emotion classifier analyzes user input to determine their emotional state, providing detailed scores for emotions like sadness, joy, and anger. This emotional context is then integrated into prompts for `Llama 2`, enabling it to generate responses that are both contextually relevant and emotionally appropriate.
 The chatbot is designed to detect when users are feeling down and provide supportive, empathetic responses. It acknowledges the user's emotional state, addresses their concerns, and offers encouragement. This system aims to provide a supportive presence for users, especially during times of emotional distress.
 
